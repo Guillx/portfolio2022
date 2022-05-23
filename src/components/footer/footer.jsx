@@ -36,7 +36,7 @@ export const Footer = () => {
           </a>
 
           <a
-            href="https://api.whatsapp.com/send?phone=625440474"
+            href="https://api.whatsapp.com/send?phone=34625440474"
             target="_blank"
             rel="noreferrer"
           >

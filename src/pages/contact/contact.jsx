@@ -53,7 +53,7 @@ export const Contact = () => {
             <FaWhatsapp className="contact__card-icon" />
             <p className="contact__card-text">Whatsapp</p>
             <a
-              href="https://api.whatsapp.com/send?phone=625440474"
+              href="https://api.whatsapp.com/send?phone=34625440474"
               className="contact__card-link"
               target="_blank"
               rel="noreferrer"
