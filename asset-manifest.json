@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio2022/static/css/main.636de4ab.css",
-    "main.js": "/portfolio2022/static/js/main.577aa3f4.js",
+    "main.js": "/portfolio2022/static/js/main.fc628721.js",
     "static/js/301.3f693f2d.chunk.js": "/portfolio2022/static/js/301.3f693f2d.chunk.js",
     "static/media/salad-restaurant.jpg": "/portfolio2022/static/media/salad-restaurant.8d8307f9efcb2c9f81d1.jpg",
     "static/media/portfolio.jpg": "/portfolio2022/static/media/portfolio.5f58a668c4ca43204733.jpg",
@@ -28,11 +28,11 @@
     "static/media/notes.png": "/portfolio2022/static/media/notes.1e75c5547e79e8e74f5d.png",
     "index.html": "/portfolio2022/index.html",
     "main.636de4ab.css.map": "/portfolio2022/static/css/main.636de4ab.css.map",
-    "main.577aa3f4.js.map": "/portfolio2022/static/js/main.577aa3f4.js.map",
+    "main.fc628721.js.map": "/portfolio2022/static/js/main.fc628721.js.map",
     "301.3f693f2d.chunk.js.map": "/portfolio2022/static/js/301.3f693f2d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.636de4ab.css",
-    "static/js/main.577aa3f4.js"
+    "static/js/main.fc628721.js"
   ]
 }
