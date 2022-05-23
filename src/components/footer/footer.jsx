@@ -35,7 +35,11 @@ export const Footer = () => {
             <FaLinkedin className="footer__icon" />
           </a>
 
-          <a href="https://wa.me/625440474" target="_blank" rel="noreferrer">
+          <a
+            href="https://api.whatsapp.com/send?phone=625440474"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaWhatsapp className="footer__icon" />
           </a>
 

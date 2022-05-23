@@ -17,7 +17,7 @@ export const SideSocials = () => {
         <FaLinkedin className="side-socials__icon" />
       </a>
       <a
-        href="https://wa.me/625440474"
+        href="https://api.whatsapp.com/send?phone=625440474"
         className="side-socials__link"
         target="_blank"
         rel="noreferrer"
