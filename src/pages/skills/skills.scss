@@ -1,0 +1,70 @@
+@import "../../App.scss";
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  &__content {
+    margin-top: 6rem;
+    width: 55%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5rem;
+    row-gap: 4rem;
+  }
+
+  &__cards {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    margin-top: 15rem;
+  }
+
+  &__card-wrapper {
+    &:hover .skills__card-text {
+      display: flex;
+      justify-content: center;
+      padding: 2rem;
+      position: absolute;
+      bottom: 8rem;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 45rem;
+      background: $color-bg;
+      border: 2px solid rgba(236, 199, 255, 0.3);
+      border-radius: 1rem;
+      z-index: 10;
+    }
+  }
+
+  &__card {
+    width: 60px;
+    height: 60px;
+    object-fit: fill;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px 1px $color-bg-variant;
+    position: relative;
+
+    & img {
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+    }
+
+    &:hover {
+      box-shadow: 2px 0px 2px rgba(236, 199, 255, 0.3);
+      transform: scale(0.9);
+    }
+  }
+
+  &__card-text {
+    display: none;
+  }
+}

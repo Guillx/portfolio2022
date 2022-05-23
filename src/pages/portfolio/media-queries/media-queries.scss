@@ -1,0 +1,190 @@
+@import "../../../App.scss";
+
+@media only screen and (max-width: 1600px) {
+  .portfolio {
+    &__tabs {
+      width: 65%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .portfolio {
+    &__tabs {
+      width: 70%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .portfolio {
+    &__tabs {
+      width: 75%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .portfolio {
+    &__tabs {
+      width: 80%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .portfolio {
+    &__tabs {
+      width: 90%;
+    }
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .portfolio {
+    &__tabs {
+      width: 80%;
+    }
+
+    &__projects {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 4rem;
+      column-gap: 7rem;
+      padding: 0 2rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .portfolio {
+    &__tabs {
+      width: 95%;
+    }
+
+    &__projects {
+      row-gap: 3rem;
+      column-gap: 5rem;
+      padding: 0 4rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .portfolio {
+    &__projects {
+      padding: 0 1rem;
+    }
+
+    &__tab-item-header {
+      padding: 1rem 3.5rem;
+
+      &--active {
+        padding: 1rem 3.5rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .portfolio {
+    &__tab-item-header {
+      padding: 1rem 2.5rem;
+
+      &--active {
+        padding: 1rem 2.5rem;
+      }
+    }
+
+    &__projects {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      row-gap: 4rem;
+      padding: 0 10rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .portfolio {
+    &__tabs {
+      width: 100%;
+    }
+
+    &__tabs-list {
+      font-weight: 500;
+    }
+
+    &__tab-item-header {
+      padding: 0.8rem 1.5rem;
+
+      &--active {
+        padding: 0.8rem 1.5rem;
+      }
+    }
+
+    &__projects {
+      padding: 0 8rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .portfolio {
+    &__tab-item-header {
+      font-size: 1.4rem;
+
+      &--active {
+        font-size: 1.4rem;
+      }
+    }
+
+    &__projects {
+      padding: 0 5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .portfolio {
+    &__tab-item-header {
+      padding: 0.8rem 1rem;
+
+      &--active {
+        padding: 0.8rem 1rem;
+      }
+    }
+
+    &__projects {
+      padding: 0 4rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .portfolio {
+    &__tab-item-header {
+      font-size: 1.2rem;
+
+      &--active {
+        font-size: 1.2rem;
+      }
+    }
+
+    &__projects {
+      padding: 0 2rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .portfolio {
+    &__tab-item-header {
+      padding: 0.5rem 0.7rem;
+
+      &--active {
+        padding: 0.5rem 0.7rem;
+      }
+    }
+  }
+}

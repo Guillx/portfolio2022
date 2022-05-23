@@ -1,0 +1,7 @@
+@import "../../../App.scss";
+
+@media only screen and (max-width: 600px) {
+  .info-button {
+    display: none;
+  }
+}

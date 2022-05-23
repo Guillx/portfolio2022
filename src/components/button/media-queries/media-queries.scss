@@ -1,0 +1,16 @@
+@import "../../../App.scss";
+
+@media only screen and (max-width: 850px) {
+  .button {
+    padding: 1.2rem 2.4rem;
+    min-width: 120px;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .button {
+    padding: 1.1rem 2.2rem;
+    min-width: 100px;
+  }
+}

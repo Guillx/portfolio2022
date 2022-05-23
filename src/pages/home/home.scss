@@ -1,0 +1,114 @@
+@import "../../App.scss";
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  &__title-container {
+    margin: 0 auto;
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+  }
+
+  &__pretitle {
+    font-size: 2.4rem;
+    font-weight: 300;
+  }
+
+  &__title {
+    font-size: 5rem;
+    font-weight: 700;
+    color: $color-primary;
+    text-shadow: 3px 1px 0px $color-primary-variant;
+    letter-spacing: 3px;
+  }
+
+  &__subtitle {
+    font-size: 2rem;
+    font-weight: 300;
+    color: $color-light;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 2.8rem;
+    margin-top: 4rem;
+    z-index: 2;
+  }
+
+  &__image {
+    position: absolute;
+    bottom: 14rem;
+  }
+
+  &__scroll-down {
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $color-secondary;
+    color: $color-secondary;
+    border-radius: 50%;
+    position: absolute;
+    right: 10rem;
+    bottom: 7rem;
+    transition: $transition;
+    cursor: pointer;
+    box-shadow: -2px 2px 10px rgb(0, 0, 0);
+
+    &::before {
+      content: "";
+      width: 0.9rem;
+      height: 0.9rem;
+      position: absolute;
+      top: -2rem;
+      border-radius: 50%;
+      background: $color-secondary;
+      box-shadow: -2px 2px 10px rgb(0, 0, 0);
+    }
+
+    &:hover {
+      transform: scale($scale-m);
+
+      &::after {
+        content: "Bajar";
+        position: absolute;
+        bottom: -3rem;
+        font-size: 1.6rem;
+      }
+    }
+  }
+
+  &__scroll-down-icon {
+    font-size: 3rem;
+    color: $color-white;
+    margin-top: 0.8rem;
+  }
+
+  &__image1 {
+    position: absolute;
+    left: 20rem;
+    top: 14rem;
+
+    & img {
+      height: 24rem;
+      transform: rotate(-20deg);
+    }
+  }
+
+  &__image2 {
+    position: absolute;
+    right: 6rem;
+    top: 0rem;
+
+    & img {
+      height: 35rem;
+    }
+  }
+}

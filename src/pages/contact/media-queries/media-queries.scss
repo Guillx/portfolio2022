@@ -1,0 +1,188 @@
+@import "../../../App.scss";
+
+@media only screen and (max-width: 1650px) {
+  .contact {
+    &__content {
+      width: 80%;
+    }
+
+    &__image {
+      & img {
+        height: 38rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .contact {
+    &__content {
+      width: 85%;
+    }
+
+    &__card {
+      height: 17rem;
+      width: 20rem;
+    }
+
+    &__card-icon {
+      font-size: 4rem;
+      margin-bottom: 0.6rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .contact {
+    &__image {
+      margin-top: 0rem;
+      & img {
+        height: 34rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .contact {
+    margin-bottom: 60rem;
+
+    &__content {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 7rem;
+    }
+
+    &__content-top {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 70%;
+      margin: auto;
+    }
+
+    &__image {
+      margin-bottom: 6rem;
+      display: flex;
+      justify-content: center;
+      & img {
+        height: 40rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .contact {
+    &__content-top {
+      width: 80%;
+    }
+
+    &__content-bottom {
+      gap: 3rem;
+    }
+
+    &__card {
+      height: 16rem;
+      width: 17rem;
+    }
+
+    &__card-icon {
+      font-size: 3.6rem;
+      margin-bottom: 0.6rem;
+    }
+
+    &__card-text {
+      font-size: 1.4rem;
+    }
+
+    &__card-link {
+      font-size: 1.4rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .contact {
+    &__content-top {
+      width: 90%;
+    }
+
+    &__image {
+      & img {
+        height: 36rem;
+      }
+    }
+
+    &__content-bottom {
+      flex-wrap: wrap;
+    }
+
+    &__card-icon {
+      font-size: 4rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .contact {
+    &__image {
+      & img {
+        height: 32rem;
+      }
+    }
+
+    &__content-bottom {
+      gap: 4rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .contact {
+    padding-bottom: 110rem;
+
+    &__image {
+      & img {
+        height: 28rem;
+      }
+    }
+
+    &__content-bottom {
+      gap: 3.5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .contact {
+    &__image {
+      & img {
+        height: 24rem;
+      }
+    }
+
+    &__card-icon {
+      font-size: 3.5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .contact {
+    &__image {
+      & img {
+        height: 20rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .contact {
+    &__content-bottom {
+      gap: 2rem;
+    }
+  }
+}

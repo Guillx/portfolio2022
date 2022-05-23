@@ -1,0 +1,76 @@
+@import "../../App.scss";
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+
+  &__input {
+    width: 100%;
+    padding: 2.2rem;
+    border-radius: 1rem;
+    background: linear-gradient(#0000001f, #0303031b, #0000007b);
+    border: 1px solid $color-secondary;
+    resize: none;
+    color: $color-white;
+    font-size: 1.4rem;
+
+    &:focus {
+      background: $color-bg;
+    }
+    &:filled {
+      background: $color-bg;
+    }
+  }
+
+  &__textarea {
+    width: 100%;
+    padding: 2.2rem;
+    border-radius: 1rem;
+    background: linear-gradient(#0000001f, #0303031b, #0000007b);
+    border: 1px solid $color-secondary;
+    resize: none;
+    color: $color-white;
+    font-size: 1.4rem;
+
+    &:focus {
+      background: $color-bg;
+    }
+    &:filled {
+      background: $color-bg;
+    }
+  }
+
+  &__button-container {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+  }
+
+  &__button {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.8rem 3rem;
+    min-width: 17rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: $transition;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    background: $color-secondary;
+    color: $color-white;
+    border: 1px solid transparent;
+    font-size: 1.6rem;
+    font-weight: 400;
+
+    &:hover {
+      background-color: transparent;
+      border: 1px solid $color-secondary;
+      transform: scale(1.06);
+      margin-right: 4px;
+    }
+  }
+}

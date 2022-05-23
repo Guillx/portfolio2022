@@ -1,0 +1,46 @@
+@import "../../../App.scss";
+
+@media only screen and (max-width: 630px) {
+  .navbar {
+    width: 100%;
+    border-radius: 0rem;
+    bottom: 0rem;
+    box-shadow: none;
+
+    &__menu {
+      padding: 2.6rem 4.4rem 2rem 4.4rem;
+    }
+
+    &__menu-icon {
+      font-size: 3.2rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .navbar {
+    &__menu {
+      padding: 2.6rem 2.4rem 2rem 2.4rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .navbar {
+    &__menu {
+      padding: 2.6rem 1.8rem 1.8rem 1.8rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .navbar {
+    &__menu {
+      padding: 2.6rem 1rem 1.8rem 1rem;
+    }
+
+    &__menu-icon {
+      font-size: 2.9rem;
+    }
+  }
+}

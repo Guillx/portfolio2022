@@ -1,0 +1,144 @@
+@import "../../App.scss";
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: 100%;
+
+  &__cards {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin-top: 14rem;
+    position: relative;
+    height: 100%;
+
+    &::after {
+      content: "";
+      height: 100%;
+      width: 8px;
+      background-color: #8270ca;
+      position: absolute;
+      border-radius: 8px;
+      top: -10px;
+    }
+  }
+
+  &__card {
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 2.5rem;
+    border-left: 1px solid #8270ca;
+    border-bottom: 1px solid #8270ca;
+    border-radius: 0 0 0 3rem;
+    position: relative;
+    transition: $transition;
+    background: $color-bg-gradient;
+
+    &:not(:first-child) {
+      margin-top: -5rem;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -10px;
+      left: -1.5px;
+      width: 100.4%;
+      height: 10px;
+      background: #8270ca;
+      transform-origin: bottom;
+      transform: skewX(-45deg);
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      width: 10px;
+      height: 100%;
+      background: #8270ca;
+      transform-origin: right;
+      transform: skewY(-45deg);
+    }
+  }
+
+  &__card-date {
+    color: $color-primary;
+    margin-bottom: 7px;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    font-size: 1.8rem;
+  }
+
+  &__card-place {
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    font-size: 1.4rem;
+  }
+
+  &__card-location {
+    color: grey;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    font-size: 1.4rem;
+  }
+
+  &__card-ocupation {
+    font-weight: 300;
+    color: #a7a8cde0;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    font-size: 1.4rem;
+  }
+
+  &__line-right {
+    position: absolute;
+    height: 0.8rem;
+    width: 16%;
+    right: -16%;
+    background: #8270ca;
+  }
+
+  &__line-left {
+    position: absolute;
+    height: 0.8rem;
+    width: 17%;
+    left: -17%;
+    background: #8270ca;
+  }
+}
+
+.experience1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.experience2 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.experience3 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.experience4 {
+  grid-area: 4 / 2 / 5 / 3;
+}
+.experience5 {
+  grid-area: 5 / 1 / 6 / 2;
+}
+.experience6 {
+  grid-area: 6 / 2 / 7 / 3;
+}

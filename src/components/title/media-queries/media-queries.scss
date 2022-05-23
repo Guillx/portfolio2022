@@ -1,0 +1,75 @@
+@import "../../../App.scss";
+
+@media only screen and (max-width: 850px) {
+  .title {
+    padding-top: 3.6rem;
+
+    &__title {
+      font-size: 4.8rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .title {
+    &__title {
+      font-size: 4.2rem;
+
+      &::before {
+        display: none;
+      }
+
+      &::after {
+        display: none;
+      }
+    }
+
+    &__subtitle {
+      font-size: 1.8rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .title {
+    &__title {
+      font-size: 3.9rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .title {
+    &__title {
+      font-size: 3.7rem;
+    }
+
+    &__subtitle {
+      font-size: 1.7rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .home {
+    &__title {
+      font-size: 3.5rem;
+    }
+
+    &__subtitle {
+      font-size: 1.6rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 335px) {
+  .home {
+    &__title {
+      font-size: 3.2rem;
+    }
+
+    &__subtitle {
+      font-size: 1.5rem;
+    }
+  }
+}

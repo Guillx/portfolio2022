@@ -1,0 +1,36 @@
+@import "../../App.scss";
+
+.button {
+  width: fit-content;
+  color: $color-secondary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.4rem 2.6rem;
+  min-width: 140px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: $transition;
+  box-shadow: 3px 3px 0px 1px $color-primary-variant;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+
+  &:hover {
+    background-color: transparent;
+    color: $color-white;
+    border: 1px solid $color-primary;
+    transform: scale(1.06);
+  }
+
+  &--primary {
+    background: #a690fc;
+    color: $color-bg;
+    border: 1px solid #a690fc;
+  }
+
+  &--secondary {
+    border: 1px solid $color-primary;
+  }
+}

@@ -1,0 +1,32 @@
+@import "../../../App.scss";
+
+@media only screen and (max-width: 1250px) {
+  .project-card {
+    height: 26rem;
+
+    &:hover {
+      & .project-card__info {
+        h2 {
+          font-size: 1.6rem;
+        }
+
+        & p {
+          font-size: 1.4rem;
+          line-height: 2.4rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .project-card {
+    height: 30rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .project-card {
+    height: 28rem;
+  }
+}

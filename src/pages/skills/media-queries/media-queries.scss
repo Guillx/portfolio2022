@@ -1,0 +1,156 @@
+@import "../../../App.scss";
+
+@media only screen and (max-width: 1650px) {
+  .skills {
+    &__content {
+      width: 60%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .skills {
+    &__content {
+      width: 65%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .skills {
+    &__content {
+      width: 70%;
+      row-gap: 3.5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .skills {
+    &__content {
+      width: 75%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .skills {
+    &__content {
+      width: 85%;
+      row-gap: 3rem;
+      column-gap: 6rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .skills {
+    &__content {
+      width: 90%;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .skills {
+    &__content {
+      width: 65%;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .skills {
+    &__content {
+      width: 70%;
+    }
+
+    &__cards {
+      gap: 6.5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .skills {
+    &__content {
+      width: 75%;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .skills {
+    &__content {
+      width: 80%;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .skills {
+    &__content {
+      width: 85%;
+    }
+
+    &__cards {
+      gap: 5rem;
+    }
+
+    &__card-wrapper {
+      &:hover .skills__card-text {
+        width: 40rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .skills {
+    &__cards {
+      gap: 4rem;
+    }
+
+    &__card-wrapper {
+      &:hover .skills__card-text {
+        width: 37rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .skills {
+    &__content {
+      width: 90%;
+    }
+
+    &__cards {
+      gap: 2.5rem;
+    }
+
+    &__card-wrapper {
+      &:hover .skills__card-text {
+        width: 32rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .skills {
+    &__cards {
+      column-gap: 7rem;
+      row-gap: 5rem;
+      flex-wrap: wrap;
+    }
+
+    &__card-wrapper {
+      &:hover .skills__card-text {
+        width: 30rem;
+        bottom: 19rem;
+      }
+    }
+  }
+}

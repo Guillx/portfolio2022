@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+$color-bg: #1a1a23;
+$color-bg-variant: #242434;
+$color-bg-gradient: linear-gradient(315deg, #181928 0%, #1d1d29 74%);
+$color-primary: #9a83f6;
+$color-primary-variant: #5b4d94;
+$color-primary-gradient: linear-gradient(
+  128deg,
+  rgba(142, 114, 254, 1) 22%,
+  rgba(153, 128, 253, 1) 55%,
+  rgba(175, 155, 255, 1) 100%
+);
+$color-secondary: #46acf5;
+$color-secondary-variant: rgb(11, 90, 142);
+$color-white: #ffffff;
+$color-white-variant: rgb(193, 193, 193);
+$color-black: #101010;
+$color-light: rgba(255, 255, 255, 0.534);
+
+$transition: all 400ms ease;
+
+$scale-xs: 0.9;
+$scale-s: 0.95;
+$scale-m: 1.05;
+$scale-l: 1.1;
+$scale-xl: 1.2;
+
+$container-width-xs: 65%;
+$container-width-s: 70%;
+$container-width-m: 75%;
+$container-width-l: 85%;
+$container-width-xl: 90%;
+$container-width-xxl: 95%;
+$container-width-full: 100%;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: $color-bg;
+  color: $color-white;
+  line-height: 1.7;
+}
+
+.page-container {
+  width: $container-width-full;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+section {
+  min-height: 100vh;
+  height: auto;
+  position: relative;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+input,
+textarea {
+  font-family: "Poppins", sans-serif;
+}

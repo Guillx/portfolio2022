@@ -1,0 +1,152 @@
+@import "../../../App.scss";
+
+@media only screen and (max-width: 1600px) {
+  .about-me {
+    &__text {
+      width: 50%;
+      line-height: 3.2rem;
+    }
+
+    &__text-check {
+      font-size: 1.5rem;
+      line-height: 3.2rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .about-me {
+    &__text {
+      width: 55%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .about-me {
+    &__text {
+      width: 60%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .about-me {
+    &__text {
+      width: 65%;
+    }
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .about-me {
+    &__text {
+      width: 70%;
+    }
+
+    &__hobbies {
+      gap: 3rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .about-me {
+    &__text {
+      width: 75%;
+      font-size: 1.6rem;
+    }
+
+    &__text-check {
+      font-size: 1.5rem;
+      line-height: 3.2rem;
+    }
+
+    &__hobbie-wrapper {
+      &:hover .about-me__hobbie-text {
+        width: 500px;
+      }
+    }
+
+    &__hobbie {
+      width: 7rem;
+      height: 7rem;
+    }
+  }
+
+  @media only screen and (max-width: 580px) {
+    .about-me {
+      &__text {
+        width: 80%;
+      }
+
+      &__hobbies {
+        max-width: 80%;
+        row-gap: 4rem;
+        column-gap: 6rem;
+        margin-top: 6rem;
+      }
+
+      &__hobbie-wrapper {
+        &:hover .about-me__hobbie-text {
+          bottom: 25rem;
+          width: 450px;
+          font-size: 1.6rem;
+          line-height: 3rem;
+        }
+      }
+
+      &__hobbie {
+        width: 8.5rem;
+        height: 8.5rem;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 470px) {
+    .about-me {
+      &__hobbies {
+        row-gap: 4rem;
+        column-gap: 10rem;
+      }
+
+      &__hobbie {
+        width: 8rem;
+        height: 8rem;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 440px) {
+    .about-me {
+      &__hobbie-wrapper {
+        &:hover .about-me__hobbie-text {
+          bottom: 35rem;
+          width: 360px;
+          font-size: 1.4rem;
+          line-height: 2.6rem;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .about-me {
+      &__text {
+        width: 90%;
+        line-height: 3rem;
+      }
+
+      &__hobbies {
+        row-gap: 4rem;
+        column-gap: 5rem;
+      }
+
+      &__hobbie-wrapper {
+        &:hover .about-me__hobbie-text {
+          width: 300px;
+        }
+      }
+    }
+  }
+}
