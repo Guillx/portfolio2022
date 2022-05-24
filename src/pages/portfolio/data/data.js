@@ -16,15 +16,6 @@ import WorkInProgress from "../../../assets/wip.jpeg";
 export const frontendProjectsData = [
   {
     id: 1,
-    image: `${Wordle}`,
-    title: "Wordle Game",
-    github: "https://github.com/Guillx/wordle_game",
-    demo: "https://guillx.github.io/wordle_game/",
-    demoButton: true,
-    description: "Clon del famoso juego 'Wordle' desarrollado con React",
-  },
-  {
-    id: 2,
     image: `${Ecommerce}`,
     title: "Ecommerce",
     github: "https://github.com/Guillx/ecommerce_frontend",
@@ -33,7 +24,7 @@ export const frontendProjectsData = [
     description: "Front end de un ecommerce de figuras Funko Pop y merch.",
   },
   {
-    id: 3,
+    id: 2,
     image: `${SaladRestaurant}`,
     title: "Tienda de Ensaladas",
     github: "https://github.com/Guillx/salad_restaurant",
@@ -42,7 +33,7 @@ export const frontendProjectsData = [
     description: "Proyecto para practicar maquetación: tienda de ensaladas.",
   },
   {
-    id: 4,
+    id: 3,
     image: `${Fakebook}`,
     title: "Fakebook",
     github: "https://github.com/Guillx/social-feisbuk",
@@ -51,7 +42,7 @@ export const frontendProjectsData = [
     description: "Proyecto para practicar maquetación: red social Facebook.",
   },
   {
-    id: 5,
+    id: 4,
     image: `${Presupuesto}`,
     title: "Control de gastos",
     github: "https://github.com/Guillx/control-presupuesto",
@@ -61,7 +52,7 @@ export const frontendProjectsData = [
       "Front End de una web que calcula gastos a partir de un presupuesto definido.",
   },
   {
-    id: 6,
+    id: 5,
     image: `${Citas}`,
     title: "Gestor de citas",
     github: "https://github.com/Guillx/gestor-citas",
@@ -71,7 +62,7 @@ export const frontendProjectsData = [
       "Front End de una web que gestiona citas de pacientes para vacunación.",
   },
   {
-    id: 7,
+    id: 6,
     image: `${Leica}`,
     title: "Landing page Leica",
     github: "https://github.com/Guillx/leica-camera-design",
@@ -81,7 +72,7 @@ export const frontendProjectsData = [
       "Maquetación de una landing page de una cámara de fotos Leica.",
   },
   {
-    id: 8,
+    id: 7,
     image: `${Portfolio}`,
     title: "Mi primer portfolio",
     github: "https://github.com/Guillx/guillx_web",
