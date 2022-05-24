@@ -8,13 +8,13 @@ export const aboutmeData = [
   {
     id: 1,
     image: `${IconArt}`,
-    text: "Me interesa todo lo relacionado con el arte y el diseño. Desde el dibujo o la escultura hasta el diseño de interiores.",
+    text: "Me interesa todo lo relacionado con el arte y el diseño. Desde el dibujo o la escultura hasta la decoración o el diseño de interiores.",
     className: "hobbie1",
   },
   {
     id: 2,
     image: `${IconMusic}`,
-    text: "Mi canción favorita es Maniac de Michael Sembello y mi composición audiovisual favorita es el videoclip de Arca - Prada/Rakata.",
+    text: "Mi canción favorita es Maniac de Michael Sembello.",
     className: "hobbie2",
   },
   {
@@ -32,7 +32,7 @@ export const aboutmeData = [
   {
     id: 5,
     image: `${IconNature}`,
-    text: "Soy fan de la sensación de estar completamente solo en medio de la naturaleza, sobre todo en verano.",
+    text: "Soy fan de la sensación de estar completamente solo y perdido en medio de la naturaleza.",
     className: "hobbie5",
   },
 ];

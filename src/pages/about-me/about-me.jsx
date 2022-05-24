@@ -20,7 +20,7 @@ export const AboutMe = () => {
       <div className="about-me__content">
         <div className="about-me__text">
           <p>
-            Me llamo Guille y soy de A Coruña. Mi carrera en el mundo del
+            Me llamo Guille y soy de Laxe, A Coruña. Mi carrera en el mundo del
             desarrollo web empezó a finales del año 2020, cuándo me apunté a un
             bootcamp de programación web Full Stack en remoto.
             <br />
@@ -55,7 +55,10 @@ export const AboutMe = () => {
             </div>
             <div className="about-me__text-check">
               <AiOutlineCheck className="icon" />
-              <p>Desarrollo de una librería de componentes para React.</p>
+              <p>
+                Desarrollo de una librería de componentes para React utilizando
+                Storybook y SASS.
+              </p>
             </div>
           </div>
           <p>
@@ -66,8 +69,9 @@ export const AboutMe = () => {
             habilidades.
             <br />
             Me gustaría participar en proyectos con alta carga visual, dónde la
-            creatividad y la maquetación sean puntos clave, ya que es lo que más
-            me gusta y dónde más puedo aportar a corto plazo.
+            creatividad y la maquetación sean puntos clave en el desarrollo, ya
+            que es el tipo de proyecto dónde me siento más motivado y productivo
+            y dónde más puedo aportar a corto plazo.
           </p>
         </div>
 

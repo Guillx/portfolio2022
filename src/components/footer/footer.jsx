@@ -2,7 +2,6 @@ import Link from "react-scroll/modules/components/Link";
 import { FaWhatsapp } from "react-icons/fa";
 import { AiOutlineGithub } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa";
-import { FiFigma } from "react-icons/fi";
 import "./footer.scss";
 
 export const Footer = () => {
@@ -11,20 +10,20 @@ export const Footer = () => {
       <div className="footer__left">
         <p>
           ¡Muchas gracias por visitar mi página! <br /> Para cualquier duda,
-          sugerencia o interés, puedes ponerte en contacto conmigo en el
+          sugerencia o interés, puedes ponerte en contacto conmigo utilizando el
           formulario de{" "}
           <Link
             to="contact"
             spy={true}
             smooth={true}
-            offset={100}
+            offset={0}
             duration={800}
+            style={{ color: "#46acf5" }}
           >
             contacto
           </Link>{" "}
-          o, preferiblemente, a través de las redes sociales, whatsapp o email.
-          También te invito a visitar mi GitHub y mi Figma para ver más
-          proyectos.
+          o a través de las redes sociales, whatsapp o email. También te invito
+          a visitar mi GitHub para ver más proyectos.
         </p>
         <div className="footer__left-icons">
           <a
@@ -45,13 +44,6 @@ export const Footer = () => {
 
           <a href="https://github.com/Guillx" target="_blank" rel="noreferrer">
             <AiOutlineGithub className="footer__icon" />
-          </a>
-          <a
-            href="https://www.figma.com/files/recent?fuid=985000805678181058"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FiFigma className="footer__icon" />
           </a>
         </div>
       </div>

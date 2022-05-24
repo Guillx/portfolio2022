@@ -12,7 +12,7 @@ export const experienceData = [
   {
     id: 2,
     date: "Mayo 2019 - Noviembre 2019",
-    place: "Restaurante 'Taste the Way",
+    place: "Restaurante 'Taste the Way'",
     location: "O Pedrouzo, Santiago de Compostela",
     ocupation: "Cocinero",
     className: "experience2",

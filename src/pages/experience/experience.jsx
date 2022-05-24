@@ -44,7 +44,7 @@ export const Experience = () => {
       </div>
 
       <div className="portfolio__info-btn">
-        <InfoButton text="Siempre me ha gustado la cocina y he trabajado varios años en hostelería. En esos años he aprendido muchísimas cosas y he desempeñado diferentes funciones, desde cobro y atención al cliente hasta gestión de almacén y pedidos. Ahora llevo 9 meses trabajando de programador, adaptandome a este sector y aprendiendo cosas nuevas cada día." />
+        <InfoButton text="Siempre me ha gustado la cocina y he trabajado varios años en hostelería. En esos años he aprendido muchísimas cosas y he desempeñado diferentes funciones, desde cobro y atención al cliente hasta gestión de almacén y pedidos. Ahora llevo 9 meses trabajando de programador, adaptándome a este sector y aprendiendo cosas nuevas cada día." />
       </div>
     </section>
   );
